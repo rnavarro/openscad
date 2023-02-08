@@ -25,7 +25,7 @@ translate([0, 0, 1.5]) union() {
         // Top screw hole
         union() {
             // Screw outer hole
-            translate([0, 40, 0]) cylinder(h=20, d=8.5);
+            translate([0, 40, 0]) cylinder(h=20, d=9);
             
             // Screw inner hole
             translate([0, 40, -5]) cylinder(h=30, d=4);
@@ -34,7 +34,7 @@ translate([0, 0, 1.5]) union() {
         // Bottom screw hole
         mirror([0, 1, 0]) union() {
             // Screw outer hole
-            translate([0, 40, 0]) cylinder(h=20, d=8.5);
+            translate([0, 40, 0]) cylinder(h=20, d=9);
             
             // Screw inner hole
             translate([0, 40, -5]) cylinder(h=30, d=4);
